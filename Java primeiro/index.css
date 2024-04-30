@@ -1,0 +1,45 @@
+body{
+    display: grid;
+   grid-template-areas: "lado meio"
+                        "lado meio";
+   grid-template-columns: 25vh auto;
+   grid-template-rows: 99vh ;                     
+
+}
+
+.meio{
+    background-color: aqua;
+    
+}
+
+.lado{
+    background-color: brown;
+    grid-area: lado;
+   
+}
+
+.item{
+    background-color: blueviolet;
+    border: solid 1px black;
+    padding: 5px;
+    margin:10px ;
+    margin-right: 40px;
+    margin-top: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35vh;
+    
+   
+}
+
